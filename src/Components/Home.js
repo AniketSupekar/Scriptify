@@ -1,11 +1,11 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import sh1 from "../Assets/shape-1.svg";
-import sh2 from "../Assets/shape-2.svg";
+import sh1 from "../Assets/p.gif";
+import sh2 from "../Assets/p.gif";
 import sh3 from "../Assets/shape-3.svg";
 import sh6 from "../Assets/shape-6.svg";
-import homeImg from "../Assets/hero-img.png";
+import homeImg from "../Assets/main.gif";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,25 +24,26 @@ function Home() {
     left: 0,
     right: 0,
     margin: "auto",
-    top: "90px",
+    top: "0px",
+    right: "380px",
     position: "absolute",
   };
 
   const shape2 = {
-    right: "380px",
-    top: "280px",
+    right: "980px",
+    top: "5px",
     position: "absolute",
   };
 
   const shape3 = {
-    right: "88px",
-    top: "230px",
+    right: "1000px",
+    bottom: "30px",
     position: "absolute",
   };
 
   const shape6 = {
-    right: "272px",
-    bottom: "0px",
+    right: "700px",
+    bottom: "30px",
     position: "absolute",
   };
 
@@ -77,7 +78,7 @@ function Home() {
             />
           </Col>
           <Col md={6}>
-            <h2 style={{ color: "#f0c19e" }}>Code Websites From Any Where</h2>
+            <h2 style={{ color: "#f0c19e" }}>Code all in one place 👨🏻‍💻</h2>
             <h5
               style={{
                 textAlign: "justify",
@@ -85,15 +86,14 @@ function Home() {
                 paddingTop: "10px",
               }}
             >
-              With this online code editor, you can edit HTML, CSS and
-              JavaScript code, and live preview of site instantly.
+             Scriptify provides a simple and intuitive interface for developers to write and test code in real time. You can write, edit, and preview your code all in one place.
             </h5>
             <Button variant="primary" style={btnStyle} as={Link} to="/web">
-              Web Editor
+              Code Editor
             </Button>
 
             <h2 style={{ color: "#f0c19e", paddingTop: "70px" }}>
-              Generate README in Seconds
+              Generate README in Seconds ⌚
             </h2>
             <h5
               style={{
@@ -102,8 +102,7 @@ function Home() {
                 paddingTop: "10px",
               }}
             >
-              Online markdown editor, with custom toolbar to help you make your
-              readme easily.
+             Our platform provides an efficient way to generate README files for your software projects. It saves your time and effort, while ensuring that your project is presented in the best possible light.
             </h5>
             <Button variant="primary" style={btnStyle} as={Link} to="/markdown">
               Markdown Editor

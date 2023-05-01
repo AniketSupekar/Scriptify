@@ -10,13 +10,13 @@ import fileDownload from "js-file-download";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Editor() {
-  const InitialVal = `## Welcome to Editor
+  const InitialVal = `## Welcome to Online Editor
 
   **Features**
   
-  - _Custom Toolbar_
   - _Html Support_
   - _Live Preview_
+  - _Custom Toolbar_
   - _Download File_`;
 
   const body = {

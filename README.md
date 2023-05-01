@@ -1,28 +1,6 @@
 <div align="center">
-
-# Editor.io
-## https://editor.soumya-jit.tech/
-
-</div>
-
-## Online code editor for HTML, CSS and Javascript to discover frontend code
-
-<div align="center">
-  <img alt="Demo" src="./src/Assets/web.gif"/>
-</div>
-
-### Features:
-
-- No installation, work online and build web pages.
-- Auto Save of all your work
-- Supports JQuery
-- Autoclose of tags and brackets
-- Live Preview
-
-## Online Markdown editor for generating Readme Files
-
-<div align="center">
-  <img alt="Demo" src="./src/Assets/markdown.gif"/>
+# Scriptify
+Effortlessly create and manage your code projects with our user-friendly online code editor and readme file generator.
 </div>
 
 ## Features
@@ -33,9 +11,45 @@
 - Live Preview
 - Auto save of work
 - Download the file Readme.md file
+- Supports JQuery
+
+### To install all rhe required dependecies
+
+```
+npm install
+```
+
+## Start the project
+
+```
+npm start
+```
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Test the application
+
+```
+npm test
+```
+
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### Build application
+
+```
+npm run build
+```
+
+Builds the app for production to the `build` folder.<br>
+
+## 👨🏻‍💻 Contributing to project
+We welcome and encourage community contributions, so feel free to submit your pull requests and help us improve our project.
+
 
 ### Show your support
+Give a ⭐ if you like this project!
 
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<a href="https://buymeacoffee.com/https://www.buymeacoffee.com/aniketsupekar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
