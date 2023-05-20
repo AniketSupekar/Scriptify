@@ -19,7 +19,7 @@ Effortlessly create and manage your code projects with our user-friendly online 
 npm install
 ```
 
-## Start the project
+## Start the project.
 
 ```
 npm start
